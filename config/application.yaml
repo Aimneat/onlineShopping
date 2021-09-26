@@ -1,0 +1,22 @@
+server:
+ #debug or release
+ runMode: debug
+ host: 127.0.0.1
+ port: 8080
+ readTimeout: 10000000000
+ writeTimeout: 10000000000
+datasource:
+ driverName: mysql
+ host: 127.0.0.1
+ port: 3306
+ database: shoppingmall
+ username: root
+ password: root
+ charset: utf8mb4
+ loc: Asia/Shanghai
+app:
+ productPageSize: 3
+ orderPageSize: 3
+jwt:
+  jwtSecret: study
+  # expires-time: 604800
